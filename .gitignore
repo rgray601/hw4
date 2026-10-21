@@ -1,0 +1,16 @@
+# Secrets. The example file is the only env file that belongs in git.
+.env
+backend/.session_secret
+
+# Local data pack. Not part of the repo.
+data/
+data.zip
+
+# Environments and build output
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+*.local
+*.json.tmp
